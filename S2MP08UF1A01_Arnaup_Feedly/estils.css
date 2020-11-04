@@ -1,0 +1,113 @@
+body{
+  background-color: skyblue;
+  margin: 0;
+}
+div{
+  background-color: red;
+  background-repeat:no-repeat;
+  background-position: 450px;
+
+  height: 100px;
+  margin: 0px;
+
+}
+h1, p{
+  font-family: arial;
+  width: 350px;
+  font-family: arial;
+  width: 400px;
+  padding: 25px;
+  margin: 0px;
+}
+h1{margin: 0;
+}
+p{padding: 0 25px;
+
+  margin: 0;
+}
+img{padding: 25px;}
+
+li{display: inline-block;
+margin: 0px;
+line-height: 30px;
+height: 30px;
+padding: 5px;
+}
+li:hover {
+  background-color: yellowgreen;}
+a{text-align: center;
+text-decoration: none;
+color: green;
+font-family: helvetica;}
+.blanca {
+  background-color: #FFF;
+}
+.verda {
+  background-color: #6C3;
+}
+.oscura{
+  background-color: #333;
+}
+.clara{
+  background-color: #EEECEE;
+}
+
+#primera {
+  height: 40px;
+}
+#segunda {
+  height: 550px;
+  background-image:url(img/img2/img-hero-full-list.png);
+
+}
+#tercera {
+  height: 641px;
+  background-image:url(img/img2/allinone.jpg);
+
+}
+#cuarta {
+  height: 500px;
+  background-image:url(img/img2/curator-short.png);
+
+}
+
+#quinta {
+  height: 550px;
+  background-image:url(img/img2/img-hero-full-list.png);
+}
+
+#sexta {
+  height: 538px;
+  background-image:url(img/img2/mobile-share.png);
+}
+#séptima {
+  height: 643px;
+  background-image:url(img/img2/anywhere.png);
+}
+#octava {
+  height: 200px;
+  text-align: center;
+}
+#boto {
+  /* NORMAL */
+  background-color: pink;
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  border: ;
+  border-radius:50px;
+  box-shadow: 7px 7px 5px violet;
+  text-align: center;
+  line-height: 70px;
+  font-size:  20px;
+  font-style: italic;
+  /* FONDO */
+  background: url(img/img2/papi.png);
+  background-position: -235px -5px;
+  color: white;
+  opacity: 0,5;
+  background-size: 150%;
+
+}
