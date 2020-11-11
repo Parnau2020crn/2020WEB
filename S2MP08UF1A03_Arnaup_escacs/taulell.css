@@ -1,0 +1,82 @@
+
+.tablero{
+  height: 800px;
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #BDB78B;
+  padding: 20px;
+
+
+    }
+/*background-image: radial-gradient(magenta 0%, magenta 50% ,turquoise 50% , turquoise 50% );*/
+
+p { height : 100px;
+  width: 100px;
+  margin: 0;
+  float: left;
+}
+
+.imparell {
+  background-color: black;
+}
+.parell {
+  background-color: white;
+}
+
+b {
+  display: block;
+height: 80px;
+width: 80px;
+background-image: radial-gradient(white,black);
+
+background-size: 200% 200%;
+
+border-radius: 50%;
+margin: 10px;
+}
+
+n {
+  display: block;
+height: 80px;
+width: 80px;
+background-image: radial-gradient(black,white);
+background-size: 200% 200%;
+
+border-radius: 50%;
+margin: 10px;
+}
+b:hover {
+
+  position: relative;
+  top: 100px;
+}
+
+n:hover {
+  position: relative;
+  top: -100px;
+}
+
+.imparell b{
+
+  background-image: radial-gradient(pink,white);
+  background-size: 200px 200px;
+}
+.imparell:nth-child(2n) b {
+  background-image: radial-gradient(blue,white);
+  background-size: 200px 200px;
+}
+/* TEORIA: PSEUDO-CLASSES
+etiquetes--->elements genèrics p.ex <div>
+classes---> elements classificants en subgrups p.ex .imparell
+ID---> elements identificaats de fprma única p.ex #reiblanc
+pseudo-classes---> estats dels elements p.ex
+:hover-- quan pàssem per sobre
+:visited-- quan l'hem visitat
+:active-- quan estem fent clicks
+:focus-- quan està seleccionat
+:checked--quan està "checkat"
+:firts-child--primer element
+:last.child--últim element
+:nth-child-- element N
+*/
