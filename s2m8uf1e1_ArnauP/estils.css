@@ -1,0 +1,120 @@
+*{
+  margin:0px;
+  padding:0px;
+  background-color: #222;
+
+}
+
+#barra{
+  display: inline-block;
+  height: 50px;
+  color: #CCC;
+  font-family: Helvetica;
+
+}
+
+
+li{
+
+  color: #CCC;
+  margin: 5px;
+  display: inline-block;
+  font-family: Helvetica;
+}
+
+li:hover{
+  color: #FFF;
+
+}
+.derecha{
+float: right;
+margin:0px;
+}
+
+img{
+  border-radius: 0.625rem;
+}
+
+img:hover{
+  opacity: 50%;
+}
+h1{
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 1.375rem;
+  margin-left: 25px;
+}
+
+.logo{
+margin-left:20px;
+margin-right:20px;
+margin-top:5px;
+margin-bottom:5px;
+border-radius: 0px;
+}
+
+.documentals{
+  width: 175px;
+  float:left;
+  padding: 20px;
+}
+
+
+
+h2{
+  color: #CCC;
+  font-family: Helvetica;
+  font-size: 0.85rem;
+}
+
+.any{
+  color: #ccc;
+  font-family: Helvetica;
+  font-size: 0.688rem;
+  padding-top: 10px;
+  position: relative;
+
+}
+
+.genere{
+  color: #CCC;
+  font-family: Helvetica;
+  font-size: 0.688rem;
+  float: right;
+  position: relative;
+  padding-bottom: 0px;
+
+}
+
+
+#vistos{
+  webkit-filter: grayscale(100%);
+  moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+
+}
+
+.docuvistos {
+
+  width: 175px;
+  float: left;
+  padding: 20px;
+  display: inline-block;
+
+}
+
+.Pelicules{
+  width: 175px;
+  float: left;
+  padding: 20px;
+
+}
+
+.series {
+  width: 175px;
+  float:left;
+  padding: 20px;
+
+}
+h1{ clear: both;}
